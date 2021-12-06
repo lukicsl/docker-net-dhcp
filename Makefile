@@ -1,6 +1,6 @@
-PLUGIN_NAME = ghcr.io/devplayer0/docker-net-dhcp
-PLUGIN_TAG ?= golang
-PLATFORMS ?= linux/amd64,linux/arm64
+PLUGIN_NAME = lukics/docker-net-dhcp
+PLUGIN_TAG ?= armv7
+PLATFORMS ?= linux/armv7
 
 SOURCES = $(shell find pkg/ cmd/ -name '*.go')
 BINARY = bin/net-dhcp
